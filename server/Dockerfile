@@ -1,4 +1,4 @@
-FROM node:11.4.0-alpine
+FROM node:18.15-alpine
 
 RUN mkdir -p /usr/src/mockit-server
 WORKDIR /usr/src/mockit-server
